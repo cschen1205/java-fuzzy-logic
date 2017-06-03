@@ -11,7 +11,7 @@ public class RuleInferenceEngine
         Map<String, FuzzySet> mWorkingMemory = new HashMap<>();
         List<Rule> mRules = new ArrayList<>();
 
-        public void AddFuzzySet(String variable, FuzzySet set)
+        public void addFuzzySet(String variable, FuzzySet set)
         {
             mVariables.add(variable);
             mWorkingMemory.put(variable, set);
@@ -23,17 +23,17 @@ public class RuleInferenceEngine
 
         }
 
-        public void AddRule(Rule fr)
+        public void addRule(Rule fr)
         {
             mRules.add(fr);
         }
 
-        public void SetVariable(String variable, double crispValue)
+        public void setVariable(String variable, double crispValue)
         {
             mWorkingMemory.get(variable).setX(crispValue);
         }
 
-        public double GetVariable(String variable)
+        public double getVariable(String variable)
         {
             return mWorkingMemory.get(variable).getX();
         }

@@ -18,11 +18,11 @@ public class Rule
             return mConsequent;
         }
 
-        public void setmConsequent(Clause value){
+        public void setConsequent(Clause value){
             mConsequent = value;
         }
 
-        public void AddAntecedent(Clause antecedent)
+        public void addAntecedent(Clause antecedent)
         {
             mAntecedents.add(antecedent);
         }
