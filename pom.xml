@@ -6,13 +6,13 @@
 
     <groupId>com.github.cschen1205</groupId>
     <artifactId>java-fuzzy-logic</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
 
     <licenses>
         <license>
             <name>MIT</name>
-            <url>https://github.com/cschen1205/java-fuzzy-logic/LICENSE</url>
+            <url>https://github.com/cschen1205/java-fuzzy-logic/blob/master/LICENSE</url>
             <comments>MIT License</comments>
         </license>
     </licenses>
@@ -38,8 +38,8 @@
     </issueManagement>
 
 
-    <name>Expert System Shell</name>
-    <description>Expert system shell implemented in Java</description>
+    <name>Fuzzy Logic in Java</name>
+    <description>Fuzzy logic controller implemented in Java</description>
     <url>https://github.com/cschen1205/java-fuzzy-logic</url>
 
     <distributionManagement>
